@@ -1,0 +1,7 @@
+Steps for Cron portion
+
+crontab -e
+
+Then edit the file to have the command:
+1 * * * * /home/samcarruthers/Documents/lab_4/lab4_script.sh
+to send the email every time the minute hand is at 1, so every 10 min
